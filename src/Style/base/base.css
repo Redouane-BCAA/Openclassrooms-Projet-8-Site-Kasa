@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+}
+
+#root {
+  width: 100%;
+}/*# sourceMappingURL=base.css.map */

@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function About() {
   return (
     <div>
-        <h1>Page A propos</h1>
+        <Header/>
+        <Footer/>
     </div>
   )
 }

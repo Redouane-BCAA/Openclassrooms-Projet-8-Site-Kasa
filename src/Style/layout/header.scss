@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FF6060;
+    padding: 50px 100px;
+
+    @media (max-width: 767px) {
+        padding: 20px;  
+    }
+
+    &_logo{
+        margin-right: auto;
+        width: 210px;
+        height: 68px;
+        @media (max-width: 767px) {
+            width: 145px;
+            height: 47px;
+            
+        }
+
+    }
+    &_link{
+        display: flex;
+        gap: 50px;
+        @media (max-width: 767px) {
+            gap: 25px;              
+        }
+        a{
+            font-size: 24px ;
+            color: #FF6060;
+            text-transform: uppercase;
+
+            @media (max-width: 767px) {
+                font-size: 12px;               
+            }
+
+
+            &.active{
+                border-bottom: 2px solid #FF6060;
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function appartementsPage() {
+export default function AppartementsPage() {
   return (
     <div>
         <h1>Page logement</h1>

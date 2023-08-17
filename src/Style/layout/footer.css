@@ -1,0 +1,30 @@
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  padding: 66px 0px 30px 0px;
+}
+@media (max-width: 768px) {
+  .footer {
+    gap: 10px;
+  }
+}
+.footer_logo {
+  width: 122px;
+  height: 40px;
+}
+.footer_content {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .footer_content {
+    font-size: 12px;
+    width: 100px;
+  }
+}/*# sourceMappingURL=footer.css.map */
