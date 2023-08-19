@@ -1,6 +1,6 @@
 .banner {
   position: relative;
-  height: 220px;
+  height: 223px;
   width: 100%;
   padding: 0 100px;
   margin-bottom: 45px;
@@ -42,5 +42,11 @@
     transform: translate(0%, -50%);
     padding-left: 30px;
     width: 245px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-banner {
+    height: 223px !important;
   }
 }/*# sourceMappingURL=banner.css.map */

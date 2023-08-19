@@ -1,10 +1,11 @@
 .banner{
     position: relative;
-    height: 220px;
+    height: 223px;
     width: 100%;
 
     padding: 0 100px;
     margin-bottom: 45px;
+
     @media (max-width : 768px) {
         height: 111px;
         padding: 0 20px;
@@ -40,5 +41,12 @@
            padding-left:30px ;
            width: 245px;
         }
+    }
+
+}
+
+.about-banner{
+    @media (max-width : 768px) {
+    height: 223px !important ;
     }
 }
