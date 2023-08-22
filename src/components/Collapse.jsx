@@ -19,7 +19,6 @@ export default function Collapse({title, collapseContent}) {
         </div>
 
         <div className={`collapse_content ${openCollapse ? "" : "collapse_hidden_txt"}`}>
-            {/* <p className={`collapse_content_txt ${openCollapse ? "collapse_animation" : ""}`}>{collapseContent}</p> */}
             <p className="collapse_content_txt">{collapseContent}</p>
         </div>
 
