@@ -76,7 +76,9 @@ table {
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
     padding: 56px 50px 43px 50px;
-	overflow: hidden; 
+	overflow: auto;
+
+
 	// prévoir le défilement
 
 	@media (max-width : 768px) {
@@ -89,3 +91,6 @@ table {
 		padding: 20px;
     }
 }
+// .container_card::-webkit-scrollbar{
+// 	display: none;
+// }
