@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AppartementPage from '../pages/AppartementsPage'
-
 import '../Style/components/card.css'
-import AppartementsPage from '../pages/AppartementsPage'
 
 export default function Card({card}) {
   return (

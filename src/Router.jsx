@@ -1,7 +1,7 @@
 import {Routes, Route} from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Appartement from "./pages/AppartementsPage"
+import Appartement from "./pages/Appartement"
 import Error404 from "./pages/Error404"
 
 import React from 'react'

@@ -1,0 +1,65 @@
+.appartementCard{
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 50px 100px;
+
+    &_info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &_title-location{
+            h2{
+                color: #FF6060;
+                font-size: 36px;
+                font-weight: 500;
+            }
+            p{
+                color: #FF6060;
+                font-size: 18px;
+                font-weight: 500; 
+                margin-top: 5px;           
+            }
+        }
+        &_host-information{
+            display: flex;
+            
+            flex-direction: row;
+            gap: 5px;
+
+            p{
+                color: #FF6060;
+                font-size: 18px;
+                font-weight: 500; 
+                text-align: right;
+                padding-top: 5px;
+            }
+            img{
+                border-radius: 50%;
+                width: 64px;
+                height: 64px;
+            }
+        }
+    }
+
+    &_note{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        &_tag{
+            ul{
+                display: flex;
+
+                li{
+                    color:#fff;
+                    background-color: #FF6060;
+                    border-radius: 10px;
+                    margin-right: 10px;
+                    padding: 3px 40px;
+                }
+            }   
+        }
+    }
+}
