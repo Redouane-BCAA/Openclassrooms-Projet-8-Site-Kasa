@@ -1,0 +1,43 @@
+.slideshow{
+    position: relative;
+    max-width: 1240px;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    
+    &_img{
+        object-fit: cover;
+        height: 415px;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    &_leftArrow{
+        cursor: pointer;
+        position: absolute;
+        left: 48px;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &_rightArrow{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &_count{
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        position: absolute;
+
+        bottom: 20px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+}
