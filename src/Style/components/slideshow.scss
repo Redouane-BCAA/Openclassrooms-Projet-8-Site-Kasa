@@ -1,16 +1,15 @@
 .slideshow{
     position: relative;
-    // max-width: 1240px;
-    // margin: auto;
     width: 100wh;
     margin: 0px 100px 40px 100px;
     border-radius: 25px;
     margin-bottom: 40px;
+    
 
     @media (max-width: 768px) {
         margin: 0px 20px 27px 20px ;
         
-      }
+    }
     
     &_img{
         object-fit: cover;

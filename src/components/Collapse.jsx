@@ -15,11 +15,19 @@ export default function Collapse({title, collapseContent}) {
     <div className='collapse'>
         <div className="collapse_title_container">
             <h2 className='collapse_title'>{title}</h2>
-            <img onClick={dropCollapse} className='collapse_arrow' src={openCollapse ? ArrowDown : ArrowUp} alt="arrow" />
+            <img onClick={dropCollapse} 
+            // className='collapse_arrow' 
+            // src={openCollapse ? ArrowDown : ArrowUp} 
+            className={`collapse_arrow 
+            ${openCollapse ? "ArrowDown" : "ArrowUp"}`} 
+            src={ArrowUp}
+            alt="arrow" />
         </div>
 
-        <div className={`collapse_content ${openCollapse ? "" : "collapse_hidden_txt"}`}>
-            <p className="collapse_content_txt">{collapseContent}</p>
+        <div className="collapse_content_container">
+          <div className={`collapse_content ${openCollapse ? "" : "collapse_hidden_txt"}`}>
+              <div className="collapse_content_txt">{collapseContent}</div>
+          </div>
         </div>
 
     </div>

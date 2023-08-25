@@ -44,11 +44,11 @@ export default function AppartementCard({appartement}) {
         <div className='appartementCard_collapse_container'>
           <Collapse title="Équipements" 
           collapseContent={
-            <ul className='equipments_list'>
+            <div className='equipments_list'>
             {appartement.equipments.map((equipment, index) => (
-              <li key={index}>{equipment}</li>
+              <p key={index}>{equipment}</p>
             ))}
-          </ul>
+          </div>
           } />
         </div>
 
