@@ -30,10 +30,25 @@
   padding: 10px 15px;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .collapse_title_container {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .collapse_title_container img {
+    width: 20px;
+  }
+}
 .collapse_title {
   color: #fff;
   font-size: 24px;
   font-weight: 500;
+}
+@media (max-width: 768px) {
+  .collapse_title {
+    font-size: 13px;
+  }
 }
 .collapse_content {
   background-color: #f6f6f6;
@@ -43,6 +58,11 @@
   font-size: 18px;
   font-weight: 400;
   transition: opacity 0.4s ease-in-out;
+}
+@media (max-width: 768px) {
+  .collapse_content {
+    font-size: 12px;
+  }
 }
 .collapse_hidden_txt {
   z-index: -1;

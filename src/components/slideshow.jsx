@@ -20,8 +20,8 @@ export default function Slideshow({image}) {
   return (
     <div className='slideshow'>
       <img className='slideshow_img'  src={image[current]} alt="" />
-      <img onClick={previousImage} className='slideshow_leftArrow' src={LeftArrow} alt="leftArrow" />
-      <img onClick={nextimage} className='slideshow_rightArrow' src={RightArrow} alt="rightArrow" />
+      <img onClick={previousImage} className='slideshow_leftArrow slideshow_arrow' src={LeftArrow} alt="leftArrow" />
+      <img onClick={nextimage} className='slideshow_rightArrow slideshow_arrow' src={RightArrow} alt="rightArrow" />
       <p className="slideshow_count">{current +1}/{image.length}</p>
     </div>
   )

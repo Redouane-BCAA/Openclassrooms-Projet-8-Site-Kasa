@@ -2,17 +2,45 @@
   width: 100wh;
   display: flex;
   flex-direction: column;
-  margin: 0px 100px 50px 100px;
+  padding: 0px 100px 50px 100px;
 }
-.appartementCard_info {
+@media (max-width: 768px) {
+  .appartementCard {
+    padding: 0px 20px 30px 20px;
+  }
+}
+.appartementCard_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .appartementCard_container {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+.appartementCard_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .appartementCard_info {
+    gap: 10px;
+  }
 }
 .appartementCard_info_title-location h2 {
   color: #FF6060;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .appartementCard_info_title-location h2 {
+    font-size: 18px;
+  }
 }
 .appartementCard_info_title-location p {
   color: #FF6060;
@@ -20,35 +48,99 @@
   font-weight: 500;
   margin-top: 5px;
 }
-.appartementCard_info_host-information {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
+@media (max-width: 768px) {
+  .appartementCard_info_title-location p {
+    font-size: 14px;
+  }
 }
-.appartementCard_info_host-information p {
-  color: #FF6060;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: right;
-  padding-top: 5px;
-}
-.appartementCard_info_host-information img {
-  border-radius: 50%;
-  width: 64px;
-  height: 64px;
-}
-.appartementCard_note {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-.appartementCard_note_tag ul {
+.appartementCard_info_tag ul {
   display: flex;
 }
-.appartementCard_note_tag ul li {
+.appartementCard_info_tag ul li {
   color: #fff;
   background-color: #FF6060;
   border-radius: 10px;
   margin-right: 10px;
   padding: 3px 40px;
+}
+@media (max-width: 768px) {
+  .appartementCard_info_tag ul li {
+    padding: 3px 30px;
+  }
+}
+.appartementCard_host-rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .appartementCard_host-rate {
+    flex-direction: row-reverse;
+  }
+}
+.appartementCard_host-rate_host-information {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .appartementCard_host-rate_host-information {
+    justify-content: flex-end;
+  }
+}
+.appartementCard_host-rate_host-information p {
+  color: #FF6060;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  padding-top: 5px;
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .appartementCard_host-rate_host-information p {
+    font-size: 12px;
+    width: 50%;
+  }
+}
+.appartementCard_host-rate_host-information img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+@media (max-width: 768px) {
+  .appartementCard_host-rate_host-information img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .appartementCard_host-rate .rating img {
+    height: 18px;
+  }
+}
+.appartementCard_collapse {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+}
+@media (max-width: 768px) {
+  .appartementCard_collapse {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.appartementCard_collapse_container {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .appartementCard_collapse_container {
+    width: 100%;
+  }
+}
+.appartementCard_collapse .collapse {
+  border-radius: 10px;
+  padding: 0;
+  font-size: 13px;
 }/*# sourceMappingURL=appartementCard.css.map */

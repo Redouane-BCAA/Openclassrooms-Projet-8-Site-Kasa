@@ -28,12 +28,22 @@
         border-radius: 5px;
         padding: 10px 15px;
         cursor: pointer;
-
+        @media (max-width: 768px) {
+            padding: 10px;
+        }
+        img{
+            @media (max-width: 768px) {
+                width: 20px;
+            }
+        }
     }
     &_title{
         color: #fff;
         font-size: 24px;
         font-weight: 500;
+        @media (max-width: 768px) {
+            font-size: 13px;
+        }
     }
 
     &_content{
@@ -46,6 +56,9 @@
         transition: 
         opacity  0.4s ease-in-out;
         // height 0.3s ease-in-out;
+        @media (max-width: 768px) {
+            font-size: 12px;
+        }
         
     }
     
