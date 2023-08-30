@@ -15,7 +15,13 @@ export default function Slideshow({image}) {
   const nextimage = () => {
   setCurrent ((indexCurrent) => (indexCurrent === image.length - 1 ? 0 : indexCurrent + 1))}
 
-
+  if (image.length === 1) {
+    return (
+      <div className='slideshow'>
+        <img className='slideshow_img' src={image[current]} alt="Photo de l'appartement" />
+      </div>
+    );
+  }
 
   return (
     <div className='slideshow'>
