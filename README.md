@@ -33,7 +33,7 @@ Vous êtes recruté en tant que développeur front-end freelance par Kasa pour p
 
 ---
 ## Contact et Liens Utiles
-- [Lien GitHub-Pages Print It](https://github.com/Redouane-BCAA/Openclassrooms-Projet-8-Site-Kasa)
+- [Lien repo GitHub Kasa](https://github.com/Redouane-BCAA/Openclassrooms-Projet-8-Site-Kasa)
 - [Portfolio](https://redouane-bcaa.github.io/Openclassrooms-Projet-12-Portfolio/)
 
 # Getting Started with Create React App
