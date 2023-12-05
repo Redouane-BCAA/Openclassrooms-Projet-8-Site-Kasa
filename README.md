@@ -1,3 +1,41 @@
+# Projet 8 OpenClassrooms - Refonte Site Kasa
+
+## Description du Projet
+Vous êtes recruté en tant que développeur front-end freelance par Kasa pour participer à la refonte totale de leur site web. Kasa est une plateforme de location d'appartements entre particuliers. Votre mission consiste à démarrer le projet React, développer l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives).
+
+### Compétences Acquises
+* Initialiser une application avec Create React App
+* Développer des éléments de l'interface d'un site web grâce à des composants React
+* Configurer la navigation entre les pages de l'application avec React Router
+* Utiliser React pour créer des composants réutilisables avec les props
+* Mettre en œuvre des animations CSS
+* Développer une interface web avec Sass
+
+## Lancer le projet
+
+#### Lancez le projet avec la commande `npm start`
+
+## Aperçu du projet
+[![Site Kasa Screenshot][product-screenshot]](https://github.com/Redouane-BCAA/Openclassrooms-Projet-8-Site-Kasa)
+
+[product-screenshot]: src/images/screenshot-kasa.png
+
+## Technologies et Outils Utilisés
+### Technologies
+* ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+* ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+* ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
+### Outils
+* ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+* ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+---
+## Contact et Liens Utiles
+- [Lien GitHub-Pages Print It](https://github.com/Redouane-BCAA/Openclassrooms-Projet-8-Site-Kasa)
+- [Portfolio](https://redouane-bcaa.github.io/Openclassrooms-Projet-12-Portfolio/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
